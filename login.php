@@ -1,5 +1,4 @@
 <?php
-session_start();
 
   if(isset($_POST['login_btn'])) {
     $email = $_POST['email'];
@@ -9,11 +8,11 @@ session_start();
         if($email === "johndoe@gmail.com") {
                     if($password == "12345678") {
                         $_SESSION['user_email'] = $email;
-                        $_SESSION['is_logged_in'] = false;
+                        $_SESSION['is_logged_in'] = true;
                         setcookie("user_email", $_SESSION['user_email'], time()+86400);
                         setcookie("is_logged_in", $_SESSION['is_logged_in'], time()+86400);
     
-                        header("Location: dashboard.php");
+                        header("Location: ./admin/dashboard.php");
                     } else {
                          echo "Password is incorrect!";
                     }

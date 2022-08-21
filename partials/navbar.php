@@ -11,7 +11,7 @@
             <a class="nav-link active" aria-current="page" href="index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Post Job</a>
+            <a class="nav-link" href="post_job.php">Post Job</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Find Job</a>
