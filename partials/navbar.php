@@ -17,7 +17,7 @@
             <a class="nav-link" href="#">Find Job</a>
           </li>
         </ul>
-        <a style="margin: 10px;" href="#" class="btn btn-primary">Login</a>
+        <a style="margin: 10px;" href="login.php" class="btn btn-primary">Login</a>
       </div>
     </div>
   </nav>

@@ -40,6 +40,8 @@ $results = $mysqli->query($sql);
             <hr/>
             <p class="desc"><b>Description: </b> <?=$job['description']; ?></p>
           <?php endwhile; ?>
+
+            <a class="btn btn-primary" href="#">Apply</a>
         </div>
 
 
