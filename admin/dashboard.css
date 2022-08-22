@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(241, 245, 245);
+}
+.job-container {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.job {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  border: 3px solid black;
+  border-radius: 8px;
+  background-color: rgb(226, 216, 216);
+  padding: 4px;
+}
+.job:hover {
+  box-shadow: 0px 0px 14px rgb(116, 102, 102);
+}
+.job img {
+  width: 80%;
+}
+.job a {
+  text-decoration: none;
+  color: black;
+}
+.a {
+  padding: 2px 5px;
+  background-color: red;
+  margin: 4px;
+  border-radius: 4px;
+  text-align: center;
+  color: aliceblue !important;
+}
+#d {
+  background-color: navy;
+}
+
+@media screen and (max-width: 768px) {
+  .job-container {
+    width: 95%;
+  }
+  .job img {
+    height: 120px;
+  }
+}
+@media screen and (max-width: 413px) {
+  .job-container {
+    width: 95%;
+  }
+  .job {
+    width: 45%;
+    margin: 5px 0;
+  }
+}

@@ -26,7 +26,6 @@ $results = $mysqli->query($sql);
 
        <?php include './partials/navbar.php' ?>
 
-
        <div class="container-job">
         <?php 
             while($job = mysqli_fetch_assoc($results)):
